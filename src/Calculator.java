@@ -1,8 +1,8 @@
 public class Calculator {
 
-    private int num1;
-    private int num2;
-    private int result;
+    int num1;
+    int num2;
+    int result;
 
 
     public void setNumbers(int num1, int num2) {
