@@ -16,5 +16,10 @@ public class Main {
         calc_div.divide();
         calc_div.displayResult("/");
 
+        ScientifiCalculator calc_sci = new ScientifiCalculator();
+        calc_sci.setNumbers(5);
+        calc_sci.factorial();
+        calc_sci.displayResult("!");
+
     }
 }
