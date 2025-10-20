@@ -6,6 +6,9 @@ public class Main {
         calc_add.add();
         calc_add.displayResult("+");
 
+        calc_add.subtract();
+        calc_add.displayResult("-");
+
         AdvancedCalculator calc_mul = new AdvancedCalculator();
         calc_mul.setNumbers(10, 3);
         calc_mul.multiply();
